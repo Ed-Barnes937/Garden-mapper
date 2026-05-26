@@ -8,20 +8,128 @@
 
 /* Begin PBXBuildFile section */
 		5A6B7C8D9E0F1A2B3C4D5E6F /* GardenMapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F7A8B9C0D1E2F /* GardenMapperApp.swift */; };
-		6A7B8C9D0E1F2A3B4C5D6E7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B4C5D6E7F8A9B0C1D2E3F /* ContentView.swift */; };
+		DBBF823B545792934C034EA4 /* GlassPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC94B1F070B7ABAB415284 /* GlassPill.swift */; };
+		6405896828F0E2EE63129572 /* ModeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAB012E1A71838A93E3E79B /* ModeSegmentedControl.swift */; };
+		4E7624476446B8AA0C4895B1 /* CaptureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5EFACBF7986A23EBDB9A85 /* CaptureButton.swift */; };
+		0AE833845DD4E4154C60C482 /* ElevationLegend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410AA34147CAF52909750EE /* ElevationLegend.swift */; };
+		3981644349D81E8FE92A73A0 /* LoopClosureBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1E07E0DC80DA6D00437C5 /* LoopClosureBanner.swift */; };
+		3D0743FBEDD1504B948C0903 /* CountTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9262FF0BA3390F38A3163121 /* CountTile.swift */; };
+		42527250F2AE92A1812FF2AE /* ReticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD52C5598B05E481613DFBC /* ReticleView.swift */; };
+		C51BB2398CFF0200ACD371AB /* StatsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230FCEFD1EA6A09909EE1685 /* StatsBar.swift */; };
+		FD1AE72D11609BFFB9FAFFC5 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3E65C12D435DFA182AC77 /* SetupView.swift */; };
+		2C7FF76155DBFC9FE8838829 /* ARCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D6795FCA2C119540738064 /* ARCaptureView.swift */; };
+		C65095DF318271AC923DCF41 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DDF2661120224E1CF8297 /* ARViewContainer.swift */; };
+		F70FD73B780DBCE7836A66F9 /* PointCloudViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347473A7BD6530A5E76731B /* PointCloudViewerView.swift */; };
+		A016C6942C60B9DB2F72DB1E /* PointCloudSceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532913927D881A9C20598A53 /* PointCloudSceneBuilder.swift */; };
+		95398DB9E0D5C533BAC3B239 /* ExportSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DAFBBBCED55AC9D3F8E2E1 /* ExportSheetView.swift */; };
+		220DE8D1099D5C3BA505C3B6 /* ARSessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1367CB4EDCF5F3EC7CBEBA3 /* ARSessionService.swift */; };
+		BBA3F2A379EBA070EBBC3BFE /* PointCloudSceneBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752794ECE0994731260411A5 /* PointCloudSceneBuilderTests.swift */; };
 		7A8B9C0D1E2F3A4B5C6D7E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4B5C6D7E8F9A0B1C2D3E4F /* Assets.xcassets */; };
+		0F392DA2F1CA05E15F150DC3 /* CapturedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB80BEA72174F493D1227D3 /* CapturedPoint.swift */; };
+		369CF257A6BFA580D781DF6E /* BoundaryStake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843F5054992D0A883C7CABA /* BoundaryStake.swift */; };
+		30DCCCF9B1D6C469D2C4CAF8 /* ScanSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F73ABB2640A91D9A7D4E5 /* ScanSession.swift */; };
+		E23A91FCA3D4EB8A392686B2 /* ARCaptureMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220DF27B272A51F9C3EEF2D5 /* ARCaptureMode.swift */; };
+		534FB664E63D12A79D130A70 /* ExportFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1958697C03BF8BBF7966A /* ExportFormat.swift */; };
+		B88529741A0BA0B6529B1250 /* ElevationCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7331BF54E3A7B28B55B031A /* ElevationCalculator.swift */; };
+		CB980703AB9167FCD2216397 /* ColorRamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DDD85EF4CF37CAB969B753 /* ColorRamp.swift */; };
+		108E72B072750BB2B296EC05 /* GeometryCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C43C905D7EF9908061B09 /* GeometryCalculator.swift */; };
+		F0429FE45526FEBAACFF9583 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FA9789BB6531F52983D05 /* ExportService.swift */; };
+		77224D6AB7BE9281C80B628E /* DistanceTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D4ABDC0D88CB8E25D76B5B /* DistanceTracker.swift */; };
+		AC39BF7891EAC13CECD9C4D4 /* StickHeightStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E831E8E8DE267E7A0A32 /* StickHeightStorage.swift */; };
+		9E0F5B26EBF322805625367C /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92510807790437B32FD12D88 /* DesignTokens.swift */; };
+		FB46D7E1319EFF2D981A985D /* ScanSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8830D68DAC3270538E1CF /* ScanSessionTests.swift */; };
+		3886D83B734F4D1D52744AE4 /* ElevationCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110EEDFD83515AF085898B87 /* ElevationCalculatorTests.swift */; };
+		9045ADB9C35E03CE336F3B19 /* ColorRampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C320CF5549E38920820C8E7A /* ColorRampTests.swift */; };
+		D30AB0430E62CA15C056F228 /* GeometryCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0D62D0315D486CB11A6AE /* GeometryCalculatorTests.swift */; };
+		2A15CB6ABE1BA3E39720118C /* ExportServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9260247425E1F55FBEA1F1 /* ExportServiceTests.swift */; };
+		3AE23567E7CD8211F3066469 /* DistanceTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E55F07ADF708FAF5917D90B /* DistanceTrackerTests.swift */; };
+		9D143298C22B94BE5C6B2B39 /* StickHeightStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74E71D3FDE709FF9C649CA6 /* StickHeightStorageTests.swift */; };
+		2214211FD4E36C4F40D6E626 /* ARSessionProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2751C06D83610C2D3E646E42 /* ARSessionProviding.swift */; };
+		3FAA3059F5C66BC38328633E /* SetupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C831CBFB2379BEE73B2B4 /* SetupViewModel.swift */; };
+		D0436AE51C68791DBC46CCB6 /* ARCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B5347032B01F03F3F87B74 /* ARCaptureViewModel.swift */; };
+		7E3B987A21832F519E3DF545 /* PointCloudViewerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006F665E9B47B4EA92A14E8 /* PointCloudViewerViewModel.swift */; };
+		12B288245C1C5DA96EE74CF1 /* ExportSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E7913665EC832AFCBDA9E /* ExportSheetViewModel.swift */; };
+		C48F9C19D65E960F2E99263B /* MockARSessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F094EE367B00A5692CDAAC1B /* MockARSessionService.swift */; };
+		B6FE890DF48521C635448870 /* SetupViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F02FF68DBBB9154A843E802 /* SetupViewModelTests.swift */; };
+		EB986504493D8EB922B01233 /* ARCaptureViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B4EE49412AB37205E3DB27 /* ARCaptureViewModelTests.swift */; };
+		5A136C79C8F432D5D1B363D0 /* PointCloudViewerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDEDCEAD5D87AC5BB47F328 /* PointCloudViewerViewModelTests.swift */; };
+		B1381D567FFEA9250DAE777D /* ExportSheetViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB8888E742A3615829A67D /* ExportSheetViewModelTests.swift */; };
+		C6F1BCFF146E1F03AA84BD85 /* ScanToExportIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DAE7E12A4EF4B98E71F340 /* ScanToExportIntegrationTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19A3C18B0CEE8ACC66D43391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8C9D0E1F2A3B4C5D6E7F8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B6C7D8E9F0A1B2C3D4E5F6A;
+			remoteInfo = GardenMapper;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1A2B3C4D5E6F7A8B9C0D1E2F /* GardenMapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenMapperApp.swift; sourceTree = "<group>"; };
-		2A3B4C5D6E7F8A9B0C1D2E3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2EBC94B1F070B7ABAB415284 /* GlassPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassPill.swift; sourceTree = "<group>"; };
+		FCAB012E1A71838A93E3E79B /* ModeSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSegmentedControl.swift; sourceTree = "<group>"; };
+		4A5EFACBF7986A23EBDB9A85 /* CaptureButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureButton.swift; sourceTree = "<group>"; };
+		7410AA34147CAF52909750EE /* ElevationLegend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationLegend.swift; sourceTree = "<group>"; };
+		42C1E07E0DC80DA6D00437C5 /* LoopClosureBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopClosureBanner.swift; sourceTree = "<group>"; };
+		9262FF0BA3390F38A3163121 /* CountTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTile.swift; sourceTree = "<group>"; };
+		3FD52C5598B05E481613DFBC /* ReticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReticleView.swift; sourceTree = "<group>"; };
+		230FCEFD1EA6A09909EE1685 /* StatsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsBar.swift; sourceTree = "<group>"; };
+		0FC3E65C12D435DFA182AC77 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		51D6795FCA2C119540738064 /* ARCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCaptureView.swift; sourceTree = "<group>"; };
+		BA3DDF2661120224E1CF8297 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		B347473A7BD6530A5E76731B /* PointCloudViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudViewerView.swift; sourceTree = "<group>"; };
+		532913927D881A9C20598A53 /* PointCloudSceneBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudSceneBuilder.swift; sourceTree = "<group>"; };
+		24DAFBBBCED55AC9D3F8E2E1 /* ExportSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportSheetView.swift; sourceTree = "<group>"; };
+		F1367CB4EDCF5F3EC7CBEBA3 /* ARSessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionService.swift; sourceTree = "<group>"; };
+		752794ECE0994731260411A5 /* PointCloudSceneBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudSceneBuilderTests.swift; sourceTree = "<group>"; };
+		07DAE7E12A4EF4B98E71F340 /* ScanToExportIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanToExportIntegrationTests.swift; sourceTree = "<group>"; };
 		3A4B5C6D7E8F9A0B1C2D3E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A5B6C7D8E9F0A1B2C3D4E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B7C8D9E0F1A2B3C4D5E6F7A /* GardenMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EA177FC2460457E4FF0A1F /* GardenMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB80BEA72174F493D1227D3 /* CapturedPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturedPoint.swift; sourceTree = "<group>"; };
+		1843F5054992D0A883C7CABA /* BoundaryStake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundaryStake.swift; sourceTree = "<group>"; };
+		085F73ABB2640A91D9A7D4E5 /* ScanSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanSession.swift; sourceTree = "<group>"; };
+		220DF27B272A51F9C3EEF2D5 /* ARCaptureMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCaptureMode.swift; sourceTree = "<group>"; };
+		28B1958697C03BF8BBF7966A /* ExportFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportFormat.swift; sourceTree = "<group>"; };
+		B7331BF54E3A7B28B55B031A /* ElevationCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationCalculator.swift; sourceTree = "<group>"; };
+		85DDD85EF4CF37CAB969B753 /* ColorRamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRamp.swift; sourceTree = "<group>"; };
+		E45C43C905D7EF9908061B09 /* GeometryCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCalculator.swift; sourceTree = "<group>"; };
+		DB8FA9789BB6531F52983D05 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		28D4ABDC0D88CB8E25D76B5B /* DistanceTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceTracker.swift; sourceTree = "<group>"; };
+		CA52E831E8E8DE267E7A0A32 /* StickHeightStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickHeightStorage.swift; sourceTree = "<group>"; };
+		92510807790437B32FD12D88 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		2AA8830D68DAC3270538E1CF /* ScanSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanSessionTests.swift; sourceTree = "<group>"; };
+		110EEDFD83515AF085898B87 /* ElevationCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationCalculatorTests.swift; sourceTree = "<group>"; };
+		C320CF5549E38920820C8E7A /* ColorRampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRampTests.swift; sourceTree = "<group>"; };
+		42E0D62D0315D486CB11A6AE /* GeometryCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCalculatorTests.swift; sourceTree = "<group>"; };
+		CB9260247425E1F55FBEA1F1 /* ExportServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportServiceTests.swift; sourceTree = "<group>"; };
+		3E55F07ADF708FAF5917D90B /* DistanceTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceTrackerTests.swift; sourceTree = "<group>"; };
+		D74E71D3FDE709FF9C649CA6 /* StickHeightStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickHeightStorageTests.swift; sourceTree = "<group>"; };
+		2751C06D83610C2D3E646E42 /* ARSessionProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionProviding.swift; sourceTree = "<group>"; };
+		5E1C831CBFB2379BEE73B2B4 /* SetupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewModel.swift; sourceTree = "<group>"; };
+		79B5347032B01F03F3F87B74 /* ARCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCaptureViewModel.swift; sourceTree = "<group>"; };
+		A006F665E9B47B4EA92A14E8 /* PointCloudViewerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudViewerViewModel.swift; sourceTree = "<group>"; };
+		AA2E7913665EC832AFCBDA9E /* ExportSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportSheetViewModel.swift; sourceTree = "<group>"; };
+		F094EE367B00A5692CDAAC1B /* MockARSessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockARSessionService.swift; sourceTree = "<group>"; };
+		6F02FF68DBBB9154A843E802 /* SetupViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewModelTests.swift; sourceTree = "<group>"; };
+		A5B4EE49412AB37205E3DB27 /* ARCaptureViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCaptureViewModelTests.swift; sourceTree = "<group>"; };
+		1EDEDCEAD5D87AC5BB47F328 /* PointCloudViewerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudViewerViewModelTests.swift; sourceTree = "<group>"; };
+		9FEB8888E742A3615829A67D /* ExportSheetViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportSheetViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4B5C6D7E8F9A0B1C2D3E4F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C5E3DCA9049938B0CE0C6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				9A0B1C2D3E4F5A6B7C8D9E0F /* GardenMapper */,
+				9F5D778D8E5D85C5E9EEFF6F /* GardenMapperTests */,
 				0A1B2C3D4E5F6A7B8C9D0E1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				6B7C8D9E0F1A2B3C4D5E6F7A /* GardenMapper.app */,
+				65EA177FC2460457E4FF0A1F /* GardenMapperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,11 +161,151 @@
 			isa = PBXGroup;
 			children = (
 				1A2B3C4D5E6F7A8B9C0D1E2F /* GardenMapperApp.swift */,
-				2A3B4C5D6E7F8A9B0C1D2E3F /* ContentView.swift */,
+				98C9F799C7EB66D9C2513992 /* Models */,
+				205AE5287DB511E78165369C /* Services */,
+				A32AB5A0FDE533128E02D03F /* ViewModels */,
+				293C6BE5299BFAE17744B507 /* Views */,
+				758F5E7F935C309F77AC4F76 /* Theme */,
 				3A4B5C6D7E8F9A0B1C2D3E4F /* Assets.xcassets */,
 				4A5B6C7D8E9F0A1B2C3D4E5F /* Info.plist */,
 			);
 			path = GardenMapper;
+			sourceTree = "<group>";
+		};
+		98C9F799C7EB66D9C2513992 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				220DF27B272A51F9C3EEF2D5 /* ARCaptureMode.swift */,
+				1843F5054992D0A883C7CABA /* BoundaryStake.swift */,
+				4EB80BEA72174F493D1227D3 /* CapturedPoint.swift */,
+				28B1958697C03BF8BBF7966A /* ExportFormat.swift */,
+				085F73ABB2640A91D9A7D4E5 /* ScanSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		205AE5287DB511E78165369C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2751C06D83610C2D3E646E42 /* ARSessionProviding.swift */,
+				F1367CB4EDCF5F3EC7CBEBA3 /* ARSessionService.swift */,
+				85DDD85EF4CF37CAB969B753 /* ColorRamp.swift */,
+				28D4ABDC0D88CB8E25D76B5B /* DistanceTracker.swift */,
+				B7331BF54E3A7B28B55B031A /* ElevationCalculator.swift */,
+				DB8FA9789BB6531F52983D05 /* ExportService.swift */,
+				E45C43C905D7EF9908061B09 /* GeometryCalculator.swift */,
+				CA52E831E8E8DE267E7A0A32 /* StickHeightStorage.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A32AB5A0FDE533128E02D03F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				79B5347032B01F03F3F87B74 /* ARCaptureViewModel.swift */,
+				AA2E7913665EC832AFCBDA9E /* ExportSheetViewModel.swift */,
+				A006F665E9B47B4EA92A14E8 /* PointCloudViewerViewModel.swift */,
+				5E1C831CBFB2379BEE73B2B4 /* SetupViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		293C6BE5299BFAE17744B507 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51D6795FCA2C119540738064 /* ARCaptureView.swift */,
+				BA3DDF2661120224E1CF8297 /* ARViewContainer.swift */,
+				24DAFBBBCED55AC9D3F8E2E1 /* ExportSheetView.swift */,
+				532913927D881A9C20598A53 /* PointCloudSceneBuilder.swift */,
+				B347473A7BD6530A5E76731B /* PointCloudViewerView.swift */,
+				0FC3E65C12D435DFA182AC77 /* SetupView.swift */,
+				D0BC57D8A85C41BDF5592B7A /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0BC57D8A85C41BDF5592B7A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A5EFACBF7986A23EBDB9A85 /* CaptureButton.swift */,
+				9262FF0BA3390F38A3163121 /* CountTile.swift */,
+				7410AA34147CAF52909750EE /* ElevationLegend.swift */,
+				2EBC94B1F070B7ABAB415284 /* GlassPill.swift */,
+				42C1E07E0DC80DA6D00437C5 /* LoopClosureBanner.swift */,
+				FCAB012E1A71838A93E3E79B /* ModeSegmentedControl.swift */,
+				3FD52C5598B05E481613DFBC /* ReticleView.swift */,
+				230FCEFD1EA6A09909EE1685 /* StatsBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		758F5E7F935C309F77AC4F76 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				92510807790437B32FD12D88 /* DesignTokens.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		9F5D778D8E5D85C5E9EEFF6F /* GardenMapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F40B43C9F46C55A5E8C76B5 /* Integration */,
+				389CDB76938737DD605E10EA /* Services */,
+				C75DA94426F86E64F8F8D836 /* ViewModels */,
+				A78640220860735C1A248B8A /* Views */,
+				EA8CD1FD716EF0BC24B9CC23 /* Mocks */,
+			);
+			path = GardenMapperTests;
+			sourceTree = "<group>";
+		};
+		8F40B43C9F46C55A5E8C76B5 /* Integration */ = {
+			isa = PBXGroup;
+			children = (
+				07DAE7E12A4EF4B98E71F340 /* ScanToExportIntegrationTests.swift */,
+			);
+			path = Integration;
+			sourceTree = "<group>";
+		};
+		A78640220860735C1A248B8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				752794ECE0994731260411A5 /* PointCloudSceneBuilderTests.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		389CDB76938737DD605E10EA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C320CF5549E38920820C8E7A /* ColorRampTests.swift */,
+				3E55F07ADF708FAF5917D90B /* DistanceTrackerTests.swift */,
+				110EEDFD83515AF085898B87 /* ElevationCalculatorTests.swift */,
+				CB9260247425E1F55FBEA1F1 /* ExportServiceTests.swift */,
+				42E0D62D0315D486CB11A6AE /* GeometryCalculatorTests.swift */,
+				2AA8830D68DAC3270538E1CF /* ScanSessionTests.swift */,
+				D74E71D3FDE709FF9C649CA6 /* StickHeightStorageTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C75DA94426F86E64F8F8D836 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5B4EE49412AB37205E3DB27 /* ARCaptureViewModelTests.swift */,
+				9FEB8888E742A3615829A67D /* ExportSheetViewModelTests.swift */,
+				1EDEDCEAD5D87AC5BB47F328 /* PointCloudViewerViewModelTests.swift */,
+				6F02FF68DBBB9154A843E802 /* SetupViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EA8CD1FD716EF0BC24B9CC23 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F094EE367B00A5692CDAAC1B /* MockARSessionService.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +328,23 @@
 			productReference = 6B7C8D9E0F1A2B3C4D5E6F7A /* GardenMapper.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ED95A24C3E55EED29B462178 /* GardenMapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3493A8ED385792E9059BB9 /* Build configuration list for PBXNativeTarget "GardenMapperTests" */;
+			buildPhases = (
+				E813613FF848C68341E84C55 /* Sources */,
+				E5C5E3DCA9049938B0CE0C6A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A0F319E9B2745C23C9F441 /* PBXTargetDependency */,
+			);
+			name = GardenMapperTests;
+			productName = GardenMapperTests;
+			productReference = 65EA177FC2460457E4FF0A1F /* GardenMapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -90,6 +357,10 @@
 				TargetAttributes = {
 					5B6C7D8E9F0A1B2C3D4E5F6A = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					ED95A24C3E55EED29B462178 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5B6C7D8E9F0A1B2C3D4E5F6A;
 					};
 				};
 			};
@@ -107,6 +378,7 @@
 			projectRoot = "";
 			targets = (
 				5B6C7D8E9F0A1B2C3D4E5F6A /* GardenMapper */,
+				ED95A24C3E55EED29B462178 /* GardenMapperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,11 +400,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A6B7C8D9E0F1A2B3C4D5E6F /* GardenMapperApp.swift in Sources */,
-				6A7B8C9D0E1F2A3B4C5D6E7F /* ContentView.swift in Sources */,
+				0F392DA2F1CA05E15F150DC3 /* CapturedPoint.swift in Sources */,
+				369CF257A6BFA580D781DF6E /* BoundaryStake.swift in Sources */,
+				30DCCCF9B1D6C469D2C4CAF8 /* ScanSession.swift in Sources */,
+				E23A91FCA3D4EB8A392686B2 /* ARCaptureMode.swift in Sources */,
+				534FB664E63D12A79D130A70 /* ExportFormat.swift in Sources */,
+				B88529741A0BA0B6529B1250 /* ElevationCalculator.swift in Sources */,
+				CB980703AB9167FCD2216397 /* ColorRamp.swift in Sources */,
+				108E72B072750BB2B296EC05 /* GeometryCalculator.swift in Sources */,
+				F0429FE45526FEBAACFF9583 /* ExportService.swift in Sources */,
+				77224D6AB7BE9281C80B628E /* DistanceTracker.swift in Sources */,
+				AC39BF7891EAC13CECD9C4D4 /* StickHeightStorage.swift in Sources */,
+				9E0F5B26EBF322805625367C /* DesignTokens.swift in Sources */,
+				2214211FD4E36C4F40D6E626 /* ARSessionProviding.swift in Sources */,
+				3FAA3059F5C66BC38328633E /* SetupViewModel.swift in Sources */,
+				D0436AE51C68791DBC46CCB6 /* ARCaptureViewModel.swift in Sources */,
+				7E3B987A21832F519E3DF545 /* PointCloudViewerViewModel.swift in Sources */,
+				12B288245C1C5DA96EE74CF1 /* ExportSheetViewModel.swift in Sources */,
+				DBBF823B545792934C034EA4 /* GlassPill.swift in Sources */,
+				6405896828F0E2EE63129572 /* ModeSegmentedControl.swift in Sources */,
+				4E7624476446B8AA0C4895B1 /* CaptureButton.swift in Sources */,
+				0AE833845DD4E4154C60C482 /* ElevationLegend.swift in Sources */,
+				3981644349D81E8FE92A73A0 /* LoopClosureBanner.swift in Sources */,
+				3D0743FBEDD1504B948C0903 /* CountTile.swift in Sources */,
+				42527250F2AE92A1812FF2AE /* ReticleView.swift in Sources */,
+				C51BB2398CFF0200ACD371AB /* StatsBar.swift in Sources */,
+				FD1AE72D11609BFFB9FAFFC5 /* SetupView.swift in Sources */,
+				2C7FF76155DBFC9FE8838829 /* ARCaptureView.swift in Sources */,
+				C65095DF318271AC923DCF41 /* ARViewContainer.swift in Sources */,
+				F70FD73B780DBCE7836A66F9 /* PointCloudViewerView.swift in Sources */,
+				A016C6942C60B9DB2F72DB1E /* PointCloudSceneBuilder.swift in Sources */,
+				95398DB9E0D5C533BAC3B239 /* ExportSheetView.swift in Sources */,
+				220DE8D1099D5C3BA505C3B6 /* ARSessionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E813613FF848C68341E84C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB46D7E1319EFF2D981A985D /* ScanSessionTests.swift in Sources */,
+				3886D83B734F4D1D52744AE4 /* ElevationCalculatorTests.swift in Sources */,
+				9045ADB9C35E03CE336F3B19 /* ColorRampTests.swift in Sources */,
+				D30AB0430E62CA15C056F228 /* GeometryCalculatorTests.swift in Sources */,
+				2A15CB6ABE1BA3E39720118C /* ExportServiceTests.swift in Sources */,
+				3AE23567E7CD8211F3066469 /* DistanceTrackerTests.swift in Sources */,
+				9D143298C22B94BE5C6B2B39 /* StickHeightStorageTests.swift in Sources */,
+				C48F9C19D65E960F2E99263B /* MockARSessionService.swift in Sources */,
+				B6FE890DF48521C635448870 /* SetupViewModelTests.swift in Sources */,
+				EB986504493D8EB922B01233 /* ARCaptureViewModelTests.swift in Sources */,
+				5A136C79C8F432D5D1B363D0 /* PointCloudViewerViewModelTests.swift in Sources */,
+				B1381D567FFEA9250DAE777D /* ExportSheetViewModelTests.swift in Sources */,
+				BBA3F2A379EBA070EBBC3BFE /* PointCloudSceneBuilderTests.swift in Sources */,
+				C6F1BCFF146E1F03AA84BD85 /* ScanToExportIntegrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99A0F319E9B2745C23C9F441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B6C7D8E9F0A1B2C3D4E5F6A /* GardenMapper */;
+			targetProxy = 19A3C18B0CEE8ACC66D43391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8B9C0D1E2F3A4B5C6D7E8F9A /* Debug */ = {
@@ -258,6 +590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2MG229JDR;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GardenMapper/Info.plist;
@@ -286,6 +619,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2MG229JDR;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GardenMapper/Info.plist;
@@ -308,6 +642,44 @@
 			};
 			name = Release;
 		};
+		4C96426C729305EF9F92CB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2MG229JDR;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.genio.GardenMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenMapper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GardenMapper";
+			};
+			name = Debug;
+		};
+		579341F3DC369D35E58D6F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2MG229JDR;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.genio.GardenMapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenMapper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GardenMapper";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -325,6 +697,15 @@
 			buildConfigurations = (
 				2C3D4E5F6A7B8C9D0E1F2A3B /* Debug */,
 				3C4D5E6F7A8B9C0D1E2F3A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3493A8ED385792E9059BB9 /* Build configuration list for PBXNativeTarget "GardenMapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C96426C729305EF9F92CB40 /* Debug */,
+				579341F3DC369D35E58D6F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
